@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Draggable Todo App</title>
+</head>
+
+<body>
+    <div class="todo-container">
+        <div class="status" id="no_status">
+            <h1>To Do</h1>
+            <div class="todo" draggable="true">
+                Task1
+                <span class="close">&times;</span>
+            </div>
+            <div class="todo" draggable="true">
+                Task2
+                <span class="close">&times;</span>
+            </div>
+            <div class="todo" draggable="true">
+                Task3
+                <span class="close">&times;</span>
+            </div>
+        </div>
+        <div class="status" id="no_started">
+            <h1>Discussion</h1>
+        </div>
+        <div class="status" id="in_progress">
+            <h1>In Progress</h1>
+        </div>
+        <div class="status" id="completed">
+            <h1>Completed</h1>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
